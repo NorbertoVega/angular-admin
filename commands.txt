@@ -1,0 +1,16 @@
+ng g c auth/login --skip-tests --inline-style
+ng g c auth/register --skip-tests --inline-style
+
+ng g c pages/nopagefound --skip-tests --inline-styl
+ng g c pages/dashboard --skip-tests --inline-style
+
+ng g c shared/breadcrumbs --skip-tests --inline-style
+ng g c shared/sidebar --skip-tests --inline-style
+ng g c shared/header --skip-tests --inline-style
+
+ng g m appRouting --flat
+
+ng g c pages/progress --skip-tests --inline-style
+ng g c pages/grafica1 --skip-tests --inline-style
+
+ng g c pages/pages --skip-tests --flat --inline-style
