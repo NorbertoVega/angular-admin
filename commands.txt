@@ -14,3 +14,7 @@ ng g c pages/progress --skip-tests --inline-style
 ng g c pages/grafica1 --skip-tests --inline-style
 
 ng g c pages/pages --skip-tests --flat --inline-style
+
+ng g m pages/pages --flat
+ng g m shared/shared --flat
+ng g m auth/auth --flat
