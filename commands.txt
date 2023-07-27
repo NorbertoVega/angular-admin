@@ -18,3 +18,11 @@ ng g c pages/pages --skip-tests --flat --inline-style
 ng g m pages/pages --flat
 ng g m shared/shared --flat
 ng g m auth/auth --flat
+
+ng g m components/components --flat
+ng g c components/incrementador --skip-tests --inline-style
+
+npm install --save ng2-charts@4.0.0
+npm install --save chart.js
+
+ng g c components/dona --skip-tests --inline-style
