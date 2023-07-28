@@ -26,3 +26,11 @@ npm install --save ng2-charts@4.0.0
 npm install --save chart.js
 
 ng g c components/dona --skip-tests --inline-style
+
+git tag
+git tag -a v1.6.0 -m "Fin sección 6"
+git push --tags
+
+ng g c pages/accountSettings --skip-tests --inline-style
+ng g s services/settings --skip-tests
+ng g s services/sidebar --skip-tests
