@@ -29,7 +29,14 @@
                         </span>
                     </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li *ngFor="let menu of item.submenu"><a [routerLink]="menu.url">{{ menu.titulo }} </a></li>
+                        <li *ngFor="let menu of item.submenu">
+                            <a 
+                                [routerLink]="menu.url"
+                                [routerLinkActiveOptions]="{ exact: true }"
+                                routerLinkActive="active">
+                                {{ menu.titulo }}
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
