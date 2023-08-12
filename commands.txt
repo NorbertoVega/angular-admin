@@ -36,3 +36,8 @@ ng g s services/settings --skip-tests
 ng g s services/sidebar --skip-tests
 
 ng g c pages/rxjs --skip-tests --inline-style
+ng g s services/usuariouario --skip-tests
+
+ ng generate environments
+
+ ng g guard guards/auth --skip-tests
